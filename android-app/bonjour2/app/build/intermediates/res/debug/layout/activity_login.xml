@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#12222F"
+    >
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:onClick="onSignUpClick"
+        android:text="Dont have an account ? SignUp"
+        android:textSize="15dp"
+        android:textColorHighlight="#ffffff"
+        android:textStyle="bold"
+        android:textColor="#CF0000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/signInUserName"
+        android:layout_below="@+id/imageView1"
+        android:hint="Email"
+        android:layout_marginTop="1dp"
+        android:text="User Name"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/signInUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/signInPassword"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:hint="Username"
+        android:background="@drawable/rounded_corner_text"
+        android:ems="10"
+        android:height="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/signInUserName"
+        android:layout_below="@+id/signInUserName"
+        android:layout_marginTop="1dp"
+        android:text="Password"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/signInPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/requestButton"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="1dp"
+        android:hint="Password"
+        android:background="@drawable/rounded_corner_text"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:height="40dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/requestButton"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/signInPassword"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_corner_button"
+        android:onClick="login_clicked"
+        android:text="Log In"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bonjour"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/signInUserName"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="60dp"/>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/FATEHULLAH/Desktop/bonjour2/app/src/main/res/layout/activity_login.xml -->

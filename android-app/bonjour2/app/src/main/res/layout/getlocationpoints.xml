@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationActivity" >
+
+    <fragment
+    	android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radiogroup">
+        <RadioButton android:id="@+id/radio_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:onClick="onRadioButtonClicked"
+            android:checked="true"/>
+        <RadioButton android:id="@+id/radio_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/routeSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

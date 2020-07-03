@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ff314352"
+            >
+
+ <TableRow
+     android:id="@+id/tableRow1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/description"
+
+     android:layout_alignTop="@+id/description" >
+ </TableRow>
+
+ <TextView
+     android:id="@+id/description"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_below="@+id/imageView1"
+     android:layout_marginLeft="10dp"
+     android:layout_marginBottom="10dp"
+     android:layout_marginTop="10dp"
+     android:background="#ff394b5b"
+     android:padding="2dp"
+     android:text="description"
+     android:textColor="#fff"
+     android:textSize="15sp"
+     android:width="285dp" />
+
+ <TextView
+     android:id="@+id/friendName"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_marginLeft="16dp"
+     android:layout_toRightOf="@+id/imageView1"
+     android:text="title"
+     android:layout_marginTop="10dp"
+     android:textColor="#CF0000"
+     android:textStyle="bold"
+     android:textSize="15sp" />
+
+ <TextView
+     android:id="@+id/city"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/friendName"
+     android:layout_below="@+id/friendName"
+     android:text="TextView"
+     android:textColor="#fff"
+     android:textSize="11sp" />
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentLeft="true"
+     android:layout_marginLeft="10dp"
+     android:layout_marginTop="10dp"
+     android:layout_toRightOf="@+id/tableRow1"
+
+     android:src="@drawable/user" />
+
+ <TextView
+     android:id="@+id/vacancy"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/city"
+     android:layout_toRightOf="@+id/imageView1"
+      android:layout_marginLeft="16dp"
+     android:text="TextView"
+     android:textColor="#fff"
+     android:textSize="12sp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/FATEHULLAH/Desktop/bonjour2/app/src/main/res/layout/row_layout.xml -->

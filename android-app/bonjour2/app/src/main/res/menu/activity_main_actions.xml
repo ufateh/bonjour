@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- home -->
+
+    <item android:id="@+id/action_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="Newsfeed"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/action_post"
+        android:icon="@drawable/ic_action_status"
+        android:title="Post"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_location"
+        android:icon="@drawable/ic_action_location"
+        android:title="Location"
+        android:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_lift"
+        android:icon="@drawable/lift"
+        android:title="Post"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/tri"
+        android:icon="@drawable/ic_action_tri"
+        android:title="Option"
+        android:showAsAction="always" >
+        <!-- "file" submenu -->
+        <menu>
+
+           
+
+	 <item android:id="@+id/friend_request_action"
+        android:title="Friend Requests"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/friend_list_action"
+        android:title="Friend List"
+        android:showAsAction="always"/>
+
+            <item android:id="@+id/action_emergency"
+                android:title="Emergency"
+                android:showAsAction="always" />
+
+            <item android:id="@+id/action_emergency_list"
+                android:title="Emergency Messages"
+                android:showAsAction="always" />
+
+            <!-- logout -->
+            <item android:id="@+id/action_logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="Log Out"
+                android:showAsAction="always"/>
+
+
+        </menu>
+
+    </item>
+
+
+    
+          
+</menu>

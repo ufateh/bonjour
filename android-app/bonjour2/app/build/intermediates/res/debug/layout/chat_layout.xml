@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Message"
+            android:id="@+id/messageTextView"
+            android:layout_gravity="left"
+            android:background="@drawable/chat_shape"
+            />
+        <View
+            android:id="@+id/list_separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:background="@android:color/white"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Date"
+            android:id="@+id/userNameTextView"
+            android:layout_gravity="left" />
+
+</LinearLayout><!-- From: file:/C:/Users/FATEHULLAH/Desktop/bonjour2/app/src/main/res/layout/chat_layout.xml -->

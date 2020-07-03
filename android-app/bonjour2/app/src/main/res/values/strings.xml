@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bonjour</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_userprofile">Userprofile</string>
+    <string name="title_activity_profile_view">ProfileView</string>
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="title_activity_emergency">Emergency Help</string>
+    <string name="title_activity_emergency_feed">emergencyFeed</string>
+
+</resources>

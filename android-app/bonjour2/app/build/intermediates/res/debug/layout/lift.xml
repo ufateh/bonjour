@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff314352">
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="datetime"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_alignTop="@+id/friendName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="title"
+        android:textStyle="bold"
+        android:textColor="#CF0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/friendName"
+        android:layout_below="@+id/friendName"
+        android:text="destination"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/user"
+        android:layout_alignLeft="@+id/description" />
+
+    <TextView
+        android:id="@+id/vacancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:text="vacancy"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Take Lift "
+        android:id="@+id/takelift"
+        android:background="#32CD32"
+        android:layout_alignTop="@+id/route"
+        android:layout_toLeftOf="@+id/datetime"
+        android:layout_toStartOf="@+id/datetime"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Route   "
+        android:id="@+id/route"
+        android:background="#32CD32"
+        android:layout_below="@+id/contact"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_toEndOf="@+id/imageView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Contact"
+        android:id="@+id/contact"
+        android:layout_below="@+id/vacancy"
+        android:layout_alignLeft="@+id/vacancy"
+        android:layout_alignStart="@+id/vacancy"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/FATEHULLAH/Desktop/bonjour2/app/src/main/res/layout/lift.xml -->

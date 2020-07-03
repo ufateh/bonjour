@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+
+    >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:orientation="vertical"
+	    android:padding="20dp"
+        android:background="#12222F">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:background="#233543" />
+
+	    <EditText
+	        android:id="@+id/detail"
+	        android:layout_width="fill_parent"
+	        android:layout_height="200dp"
+	        android:layout_below="@+id/imageView1"
+	        android:layout_marginTop="28dp"
+	        android:background="@drawable/rounded_corner_text"
+	        android:ems="10"
+            android:height="40dp"
+            android:hint="Add Status Here"
+            android:maxLines="6" />
+
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:layout_alignLeft="@+id/detail"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="10dp"
+	        android:src="@drawable/user" />
+
+	    <TextView
+	        android:id="@+id/post_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+	        android:layout_alignBottom="@+id/imageView1"
+	        android:layout_marginBottom="34dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:text="Large Text"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/city"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/detail"
+	        android:layout_below="@+id/detail"
+	        android:layout_marginTop="18dp"
+	        android:background="@drawable/rounded_corner_text"
+	        android:ems="10"
+	        android:height="40dp"
+	        android:hint="City" />
+
+	    <Button
+	        android:id="@+id/requestButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/city"
+	        android:layout_below="@+id/city"
+	        android:layout_marginTop="53dp"
+	        android:background="@drawable/rounded_corner_button"
+	        android:clickable="true"
+	        android:onClick="postClick"
+	        android:text="Post"
+	        android:textColor="#fff" />
+
+	</RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/FATEHULLAH/Desktop/bonjour2/app/src/main/res/layout/activity_post.xml -->
